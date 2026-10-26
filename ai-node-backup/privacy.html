@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy policy | ai-node Backup</title><style>*{box-sizing:border-box}html{color-scheme:light}body{margin:0;background:#fff;color:#172a3a;font:18px/1.65 "Trebuchet MS","Segoe UI",sans-serif}main,footer{max-width:67ch;margin:auto;padding:2rem 1.25rem}main{padding-top:3rem}h1{font-size:2.4rem;line-height:1.12;letter-spacing:-.035em;margin:0 0 1.25rem}h2{font-size:1.3rem;line-height:1.3;margin:2rem 0 .6rem}p,ul{margin:.75rem 0}a{color:#165b95;text-underline-offset:.18em}a:hover{color:#173a57}a:focus-visible{outline:3px solid #165b95;outline-offset:4px}code{font-size:.95em;overflow-wrap:anywhere}.intro{font-size:1.15rem}.back,footer{color:#4c6476;font-size:.9rem}footer{border-top:1px solid #cbd6e0;padding-top:1rem;padding-bottom:2rem}@media(max-width:480px){main{padding-top:2rem}h1{font-size:2rem}}</style></head><body><main><p class="back"><a href="./">ai-node Backup</a></p>
+<h1>Privacy policy</h1>
+<p class="intro">This policy describes the owner's private Google Drive backup client, not a public file-sharing or AI service.</p>
+<h2>Information used</h2>
+<p>The application uses Google OAuth authorization to connect to the owner's Drive. Its requested scope is <code>https://www.googleapis.com/auth/drive.file</code>, which covers app-created files and files explicitly authorized for the app. It uses the corresponding file metadata and content to store, check, restore and maintain its backup repository.</p>
+<p>Selected local files and system data are packaged into Restic backups. Original filenames, filesystem metadata and backup contents are encrypted locally before upload. Google Drive stores the encrypted repository; it does not receive the backup password.</p>
+<h2>Purpose and sharing</h2>
+<p>Data is used only to perform backups, integrity checks, restores and owner-directed retention. This backup client does not sell data, use it for advertising, profile users or train AI models. Backup contents are not sent by this client to AI providers or unrelated analytics services.</p>
+<p>Google Drive provides the off-site storage. Restic and rclone run on the owner's equipment; these tools are not additional hosted storage services. Authorization credentials are kept privately on the owner's equipment and are not published on this website.</p>
+<h2>Retention and deletion</h2>
+<p>The owner controls snapshot retention and deletion. Revoking authorization stops future Drive access but does not automatically delete already uploaded backups. Backups can be removed using the backup tools or Google Drive; Google's own trash and retention rules may also apply.</p>
+<h2>Control over access</h2>
+<p>The owner can revoke this application's access through <a href="https://myaccount.google.com/connections">Google Account connections</a>. This is a single-owner application with no public sign-up. For questions or deletion requests, use the support email displayed on the application's Google consent screen.</p>
+<h2>Google API data</h2>
+<p>The application's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>These information pages</h2>
+<p>These static pages do not request Drive access and add no advertising or analytics code. They are hosted on GitHub Pages and served through Cloudflare; those providers may process ordinary web request data under their own policies.</p></main><footer>Personal-use backup application. Updated 26 October 2026.</footer></body></html>
